@@ -1,0 +1,125 @@
+{
+    "products": [
+      {
+        "picture": "https://i.ibb.co/Xtnk4kc/Health.png",
+        "category": "Health",
+        "title": "Clean water for children",
+        "category_bg":"rgba(0, 82, 255, 0.20)",
+        "card_bg": "rgba(0, 82, 255, 0.15)",
+        "text_button_bg": "#0052FF;",
+        "description": "This is a description for Product 1.",
+        "price": "$299.99"
+      },
+      {
+        "picture": "https://i.ibb.co/WWQJRHN/Rectangle-4288.png",
+        "title": "Product 2",
+        "category": "Education",
+        "category_bg": "#e74c3c",
+        "card_bg": "#ecf0f1",
+        "text_button_bg": "#3498db",
+        "description": "Introducing Product 2 - perfect for any occasion.",
+        "price": "$49.99"
+      },
+      {
+        "picture": "https://i.ibb.co/s9J9Lfk/clothing-1.jpg",
+        "title": "Product 3",
+        "category": "Clothing",
+        "category_bg": "#27ae60",
+        "card_bg": "#ecf0f1",
+        "text_button_bg": "#e74c3c",
+        "description": "Enhance your living space with Product 3.",
+        "price": "$79.99"
+      },
+      {
+        "picture": "https://i.ibb.co/6Z98z5C/Rectangle-4287-2.png",
+        "title": "Product 4",
+        "category": "Food",
+        "category_bg": "#f1c40f",
+        "card_bg": "#ecf0f1",
+        "text_button_bg": "#3498db",
+        "description": "Discover the secret to radiant skin with Product 4.",
+        "price": "$39.99"
+      },
+      {
+        "picture": "https://i.ibb.co/RTRP8Y8/food-1.webp",
+        "title": "Product 5",
+        "category": "Food",
+        "category_bg": "#e74c3c",
+        "card_bg": "#ecf0f1",
+        "text_button_bg": "#27ae60",
+        "description": "Hours of fun await with Product 5 for kids of all ages.",
+        "price": "$19.99"
+      },
+      {
+        "picture": "https://i.ibb.co/PTbdSFv/Clothing.png",
+        "title": "Product 6",
+        "category": "Clothing",
+        "category_bg": "#3498db",
+        "card_bg": "#ecf0f1",
+        "text_button_bg": "#e74c3c",
+        "description": "Achieve your fitness goals with Product 6.",
+        "price": "$129.99"
+      },
+      {
+        "picture": "https://i.ibb.co/t4D9LwV/edu-2.jpg",
+        "title": "Product 7",
+        "category": "Education",
+        "category_bg": "#27ae60",
+        "card_bg": "#ecf0f1",
+        "text_button_bg": "#3498db",
+        "description": "Immerse yourself in a world of stories with Product 7.",
+        "price": "$9.99"
+      },
+      {
+        "picture": "https://i.ibb.co/HrJsMt6/health-3.webp",
+        "title": "Product 8",
+        "category": "Health",
+        "category_bg": "#f1c40f",
+        "card_bg": "#ecf0f1",
+        "text_button_bg": "#e74c3c",
+        "description": "Take care of your well-being with Product 8.",
+        "price": "$59.99"
+      },
+      {
+        "picture": "https://i.ibb.co/98gKXpx/health-2.webp",
+        "title": "Product 9",
+        "category": "Health",
+        "category_bg": "#e74c3c",
+        "card_bg": "#ecf0f1",
+        "text_button_bg": "#3498db",
+        "description": "Indulge in delicious flavors with Product 9.",
+        "price": "$24.99"
+      },
+      {
+        "picture": "https://i.ibb.co/16TLyvL/edu-3.jpg",
+        "title": "Product 10",
+        "category": "Education",
+        "category_bg": "#3498db",
+        "card_bg": "#ecf0f1",
+        "text_button_bg": "#e74c3c",
+        "description": "Upgrade your tech with Product 10.",
+        "price": "$199.99"
+      },
+      {
+        "picture": "https://i.ibb.co/T8mzsfd/clothing-3.jpg",
+        "title": "Product 11",
+        "category": "Clothing",
+        "category_bg": "#e74c3c",
+        "card_bg": "#ecf0f1",
+        "text_button_bg": "#3498db",
+        "description": "Stay stylish with Product 11's latest fashion trends.",
+        "price": "$69.99"
+      },
+      {
+        "picture": "https://i.ibb.co/RTRP8Y8/food-1.webp",
+        "title": "Product 12",
+        "category": "Food",
+        "category_bg": "#27ae60",
+        "card_bg": "#ecf0f1",
+        "text_button_bg": "#e74c3c",
+        "description": "Transform your space with the beauty of Product 12.",
+        "price": "$89.99"
+      }
+    ]
+  }
+  
