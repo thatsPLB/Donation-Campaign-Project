@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from "./Cards";
 
 const Catagories = ({catagories}) => {
     // console.log(catagories);
