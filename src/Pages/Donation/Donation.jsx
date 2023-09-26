@@ -19,12 +19,20 @@ const Donation = () => {
         }
 
     },[])
-    console.log(donate);
+    // console.log(donate);
+    const handleRemove =() =>{
+        localStorage.clear()
+        setDonate([])
+        setNoFound("no data found")
+    }
     return (
         <div>
             {noFound? <p className="h-[80vh] flex justify-center items-center">{noFound}</p> 
             :
             <div>
+                {donate.length > 0 && <button  onClick={handleRemove} className="px-5 rounded-lg text-white bg-green-600 block mx-auto">Refresh</button>}
+
+
                 <div className="grid grid-cols-2 gap-5">
                     {
                         isShow? donate.map(category => <SingleCard key={category.id} category={category}></SingleCard>) 
@@ -33,7 +41,7 @@ const Donation = () => {
                     }
                    
                 </div>
-                <button onClick={()=>setShow(!isShow)} className="px-5 bg-green-600 block mx-auto">{isShow?"See Less" : "See all"}</button>
+                <button onClick={()=>setShow(!isShow)} className="px-5 rounded-lg text-white bg-green-600 block mx-auto">{isShow?"See Less" : "See all"}</button>
                 
             </div>}
         </div>

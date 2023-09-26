@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
 const Card = ({category}) => {
@@ -9,7 +10,7 @@ const Card = ({category}) => {
     return (
         <Link to={`/catagories/${id}`}>
         <div>
-           <div className="relative mx-4 mt-4  flex  flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+           <div className="relative mx-4 mt-4 w-auto flex  flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 h-96 w-50 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
     {/* {background} */}
     <img
