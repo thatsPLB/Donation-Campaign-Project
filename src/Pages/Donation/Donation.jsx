@@ -1,3 +1,5 @@
+
+
 import { useEffect, useState } from "react";
 import SingleCard from "../Category/SingleCard";
 
@@ -19,7 +21,7 @@ const Donation = () => {
         }
 
     },[])
-    // console.log(donate);
+    
     const handleRemove =() =>{
         localStorage.clear()
         setDonate([])

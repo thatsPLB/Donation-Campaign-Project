@@ -1,21 +1,35 @@
-import { Pie } from 'react-chartjs-2';
-
+import { PieChart } from "@mui/x-charts/PieChart";
+import { useEffect, useState } from "react";
 const Statistic = () => {
-  const data = {
-    labels: ['Red', 'Blue', 'Yellow'],
-    datasets: [
-      {
-        data: [300, 50, 100],
-        backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
-        hoverBackgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'],
-      },
-    ],
-  };
+  let totalPrice = 0;
+  const [donate, setDonate] = useState([]);
+  useEffect(() => {
+    const donateData = JSON.parse(localStorage.getItem("donation"));
+    if (donateData) {
+      setDonate(donateData);
+    }
+  }, []);
+  donate.map((data) => {
+    totalPrice += data.price
+  })
+  totalPrice = Math.floor(totalPrice) 
+  let target = 1000
+  let need = (totalPrice/target)*100;
 
   return (
-    <div>
-      <h2>Pie Chart Example</h2>
-      <Pie data={data} />
+    <div style={{ display: "flex" }}>
+      <PieChart
+        series={[
+          {
+            data: [
+              { id: 0, value: 100-need, label: "Total Donation"},
+              { id: 1, value: need, label: "Your Donation"},
+            ],
+          },
+        ]}
+        width={800}
+        height={400}
+      />
     </div>
   );
 };

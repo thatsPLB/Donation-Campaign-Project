@@ -9,7 +9,6 @@ const Home = () => {
     return (
         <div>
            <Banner></Banner>
-           <Catagories catagories={catagories}></Catagories>
         </div>
     );
 };

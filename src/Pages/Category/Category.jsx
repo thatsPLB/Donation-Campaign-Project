@@ -15,7 +15,6 @@ const Category = () => {
         // console.log(findCategory);
         setCategory(findCategory)
     },[id,categories])
-    console.log(category);
 
     return (
         <div>
